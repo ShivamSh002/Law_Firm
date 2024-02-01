@@ -1,0 +1,40 @@
+.wrapper {
+    width: 22.438rem;
+    height: 22.5rem;
+    display: flex;
+    flex-direction: column;
+    border: 1.4px solid var(--color-lightGrey);
+    border-radius: 0.875rem;
+}
+
+.cardWrapper {
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-right: 0rem;
+}
+
+.rate {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.text {
+    font-size: 0.875rem;
+    font-weight: 500;
+    opacity: 30%;
+    padding-right: 3.5rem;
+}
+
+.btn {
+    width: 7.563rem;
+    height: 2.688rem;
+    border-radius: 1.469rem;
+    border: 1px solid var(--color-primary);
+    background-color: var(--color-primary);
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-right: 0.313rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}

@@ -1,0 +1,13 @@
+:root {
+    --color-primary: #E3B748;
+    --color-white: #FFFFFF;
+    --color-black: #111111;
+    --color-grey: #1D1D1D;
+    --color-lightGrey: #474747;
+}
+
+body {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    font-family: Sans-serif;
+}

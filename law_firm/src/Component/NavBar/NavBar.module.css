@@ -1,0 +1,13 @@
+.wrapper {
+    display: flex;
+    height: 10vw;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    width: 30rem;
+}
