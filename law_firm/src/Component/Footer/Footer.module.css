@@ -17,6 +17,7 @@
 .icons {
     display: flex;
     gap: 0.7rem;
+    cursor: pointer;
 }
 
 .info {

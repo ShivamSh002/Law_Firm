@@ -11,7 +11,8 @@ import NikJeo from "../../assests/Nik Jeo.png"
 
 const Team = () => {
   return (
-    <div><div className={styles.heading}>Our Team</div>
+   
+    <div id="team"><div className={styles.heading}>Our Team</div>
     <div className={styles.cardsWrapper}> <TeamCard img={Danial} name = "Danial Def" cases = "301"/>
     <TeamCard img={Sanfole} name = "Sanfole" cases = "850"/>
     <TeamCard img={Cesforila} name = "Cesforila" cases = "470"/>
@@ -20,6 +21,7 @@ const Team = () => {
     <TeamCard img={NikJeo} name = "NikJ eo" cases = "350"/></div>
    
     </div>
+   
   )
 }
 

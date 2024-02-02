@@ -7,7 +7,7 @@ import MailOutlineIcon from '@mui/icons-material/MailOutline';
 
 const Home = () => {
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.wrapper} id="home">
       <div className={styles.heroSection} >
       <div className={styles.header}>
       <h1><span>You don't have to</span> <br />Fight them Alone.</h1>

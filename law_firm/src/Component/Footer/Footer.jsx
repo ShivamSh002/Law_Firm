@@ -5,14 +5,15 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import XIcon from '@mui/icons-material/X';
 import PinterestIcon from '@mui/icons-material/Pinterest';
+import {HashLink as Link} from "react-router-hash-link"
 
 const Footer = () => {
   return (
-    <div><div className={styles.wrapper} > <div><Logo/></div>
-    <div className={styles.header}><h4>Home</h4>
-    <h4>Attorneys</h4>
-    <h4>Practice Areas</h4>
-    <h5>About Us</h5>
+    <div id="contact"><div className={styles.wrapper} > <div><Logo/></div>
+    <div className={styles.header}> <Link to="#home" smooth> <h4 style={{ color: 'white', textDecoration: 'none' }} >Home</h4></Link>
+    <Link to="#team" smooth> <h4 style={{ color: 'white', textDecoration: 'none' }} >Attorneys</h4></Link>
+    <Link to="#pratice" smooth> <h4 style={{ color: 'white', textDecoration: 'none' }} >Practice Areas</h4></Link>
+    <Link to="#about" smooth> <h4 style={{ color: 'white', textDecoration: 'none' }} >About Us</h4></Link>
     </div>
     <div className={styles.icons}>
         <InstagramIcon sx={{ fontSize: 30, color: '#E3B748' }}/>

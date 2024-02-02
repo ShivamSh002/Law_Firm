@@ -5,7 +5,7 @@ import CardComp from '../CardComp/Card'
 
 const IntroSection = () => {
   return (
-    <div><div className={styles.wrapper} ><div className={styles.intro}><div>Let's Indroduce <br /> Ourself</div></div>
+    <div id="about"><div className={styles.wrapper} ><div className={styles.intro}><div>Let's Indroduce <br /> Ourself</div></div>
     <div className={styles.brief}>
         <h2 >Criminal Lawyer</h2>
         <div>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exercitation</div></div>
