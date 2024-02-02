@@ -1,0 +1,37 @@
+.wrapper {
+    width: 21.5rem;
+    height: 6.813rem;
+    display: flex;
+    border-radius: 0.875rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.imgWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.text {
+    padding-top: 0.3rem;
+    padding-left: 1rem;
+}
+
+.heading {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.wrapper:hover {
+    background-color: var(--color-primary);
+    color: var(--color-black)
+}
+
+.subHeading {
+    font-size: 0.875rem;
+    font-weight: 400;
+    opacity: 30%;
+    margin-top: -1.2rem;
+}

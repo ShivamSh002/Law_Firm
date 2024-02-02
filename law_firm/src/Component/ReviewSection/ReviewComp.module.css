@@ -1,0 +1,34 @@
+.wrapper {
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    margin-inline: 16rem;
+    button {
+        width: 5.663rem;
+        height: 5.663rem;
+        border-radius: 50%;
+        background-color: var(--color-white);
+        margin-right: 1.313rem;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: var(--color-primary)
+    }
+}
+
+.header {
+    font-size: 3.375rem;
+    font-weight: 600;
+}
+
+.icon {
+    font-size: large;
+}
+
+.cardsWrppaer {
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-inline: 16em;
+    margin-top: 6rem;
+}

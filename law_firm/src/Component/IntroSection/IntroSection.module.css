@@ -2,6 +2,7 @@
     margin-top: 12rem;
     display: flex;
     padding-top: 10rem;
+    margin-left: 5.5rem;
 }
 
 .intro {
@@ -19,7 +20,7 @@
 
 .brief {
     padding-left: 5rem;
-    padding-right: 23rem;
+    padding-right: 20rem;
     padding-top: 1rem;
     div {
         opacity: 30%;
