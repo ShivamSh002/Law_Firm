@@ -9,7 +9,7 @@ import Elder from "../../assests/Elder.png"
  
 const PracticeAreas = () => {
   return (
-    <div id="pratice">
+    <div id="practice">
       <div className={styles.header}>Area of Practices</div>
       <div className={styles.wrapper}>
         <div className={styles.imgWrppaer}><img src={Bussiness} alt="Bussiness Law" /> <p className={styles.imgText}>Bussiness Law</p></div>
